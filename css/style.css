@@ -1,0 +1,177 @@
+  <style>
+
+      body{
+        padding-top: 5px;
+        padding-bottom: 25px;
+        background-color: #ddd;
+        
+      }
+
+      body .container{
+
+
+      }
+      
+
+      .navbar-default
+      {
+        background-color: #000000;
+        
+        color: #DDCCEE;
+
+      }
+
+
+      .navbar-default .navbar-brand{
+
+        color: #DDCCEE;
+      }
+
+      .navbar-default .navbar-brand:hover,
+      .navbar-default .navbar-brand:focus
+      {
+
+        color: #bf80ff;
+      }
+
+      .navbar-default .navbar-nav > li > a {
+
+        color: #DDCCEE;
+
+      }
+
+      .navbar-default .navbar-nav > .active > a,
+      .navbar-default .navbar-nav > .active > a:hover,
+      .navbar-default .navbar-nav > .active > a:focus {
+
+        color: #000000;
+        background-color: #e65c00;
+      }
+
+      .navbar-default .navbar-nav > li > a:hover,
+      .navbar-default .navbar-nav > li > a:focus
+      {
+
+        color: #bf80ff;
+        background-color: transparent;
+      }      
+
+
+      .navbar-default .navbar-nav > .open > a,
+      .navbar-default .navbar-nav > .open > a:hover,
+      .navbar-default .navbar-nav > .open > a:focus {
+
+        color: #000000;
+        background-color: #e65c00;
+      }
+
+
+      .thumbnail
+      {
+        margin-bottom: 0px;
+      }
+
+
+
+
+      <!--course content-->
+
+            h1 {
+              font-family: 'Josefin Slab', serif;
+              font-size:80px;
+              color:#DDCCEE;
+            }
+
+            h2{
+
+                font-family: 'Josefin Slab', serif;
+                font-size: 45px;
+                
+                color: #ddd;
+
+            }
+
+
+             .container .jumbotron{
+                  
+                  padding-top: 0px;
+                  padding-left: 0px;
+                  padding-right: 0px;
+                  padding-bottom: 5px;
+                  margin-top: 30px;
+                  margin-bottom: 30px;
+            }
+
+
+            .row{
+
+                  background-color:transparent;
+                  padding-top: 30px;
+                  color: #ddd;
+                  opacity: 90%;
+                }
+
+            .row .text-muted{
+
+                 
+                  color: #000;
+                }
+
+            .row h2{
+
+                font-family: 'Josefin Slab', serif;
+                font-size: 45px;
+                color: #ddd;
+            }
+
+            .row p{
+
+                font-family: 'Josefin Slab', serif;
+                font-size: 25px;
+                
+            }
+
+            h4 {
+              font-family: 'Josefin Slab', serif;
+              font-size: 30px;
+            }
+
+/* Custom container */
+            
+
+            /*well for contact page*/
+
+            
+
+/* footer */
+
+            .site-footer{
+
+              background-color: #000;
+              
+            }
+
+            .site-footer .row {
+
+              font-family: 'Josefin Slab', serif;
+              
+              color: #ddd;
+
+            }
+
+            .site-footer .row h4{
+
+              
+              font-size: 30px;  
+
+            }
+
+            .site-footer .row p{
+
+              
+              font-size: 20px;  
+              font-weight: normal;
+
+            }
+              
+    </style>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      body{
+
+        background-image: url("");
+      }
+    </style>
+      </head>
+
+  <body>
+   
+  <!--NAVIGATION bar--> 
+ 
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                  <a class="navbar-brand" href="index.html">MartialArtsBay</a>
+                                      
+            </div>
+                
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                        <li class="active"><a href="index.html">Home</a></li>
+                          <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                              <li><a href="course.html">Karate Course</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="#">Special Techniques</a></li>
+                              <li><a href="#">Something Specific</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="about.html">About Us</a></li>
+                          <li><a href="contact.html">Contact Us</a></li>
+                    
+                </ul>
+              </div>
+        </div>
+            
+      </nav>
+  
+    
+
+   <!--navigation bar ends--> 
+
+
+   <!--CAROUSEL-->
+  <div class="container">
+         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/karate1.jpg" alt="...">
+            <div class="carousel-caption">
+              <h3>Caption Text</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/karate2.jpg" alt="...">
+            <div class="carousel-caption">
+              <h3>Caption Text</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/karate3.jpg" alt="...">
+            <div class="carousel-caption">
+              <h3>Caption Text</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div> <!-- Carousel -->
+
+   <!--CAROUSEL ENDS-->
+
+   <!--contents-->
+
+  <div class="row">
+    
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="hovereffect">
+              <a class="thumbnail">
+                <img class="img-responsive" src="images/thumbnail2.png" alt="thumb1">
+              </a>
+                <div class="overlay">
+                   <h2>Things are needed.</h2>
+                   <a class="info" href="things.html">View More</a>
+                </div>
+            </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="hovereffect">
+                <a class="thumbnail">
+                  <img class="img-responsive" src="images/thumbnail1.png" alt="thumb1">
+                </a>
+                <div class="overlay">
+                   <h2>Tell me more</h2>
+                   <a class="info" href="gallery.html">Gallery</a>
+                </div>
+            </div>
+    </div>
+  </div>
+  
+  <!--Descriptions-->
+
+ <hr class="featurette-divider">
+  <div class="container">
+       <center><h2>What you are going to learn ?</h2></center>
+  </div>
+ 
+ <hr class="featurette-divider">
+
+    <div class="row">
+        <div class="col-md-7">
+          <h2 class="heading">Martial Arts. <span class="text-muted">The ultimate self-knowledge.</span></h2>
+          <p class="lead">“The martial arts are ultimately self-knowledge. A punch or a kick is not to knock the hell out of the guy in front, but to knock the hell out of your ego, your fear, or your hang-ups.”
+          - Bruce Lee</p>
+        </div>
+        <div class="col-md-5">
+          <img class="img-responsive center-block" src="images/martialarts1.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+ <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Give your child a better future.<span class="text-muted">They'll connect their mind and body.</span></h2>
+          <p class="lead">Whether your kid is too bossy, too shy, or perhaps just a little hyper, the martial arts can help your child learn many important life lessons.Your child will learn that confidence and respect for others comes from a deep sense of self-knowledge.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="images/martialkids.jpg" alt="martialarts1.jpg">
+        </div>
+      </div>
+
+ <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">"Defense <span class="text-muted">is the best offence !"</span></h2>
+          <p class="lead">Self defense classes will make you more aware of your surroundings. You’re never planning to be attacked, but your attacker is the one with the plan. Self defense classes will help you to be aware at all times and ready, should this type of situation arise. You might be shocked for a second, but you will have the necessary reactions to protect yourself.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/defense.jpg" alt="defense">
+        </div>
+      </div>
+
+ <hr class="featurette-divider">       
+
+</div>
+
+     <!--Footer-->
+
+  <footer class="site-footer">
+
+            <h4>© 2016 MartialArtsBay</h4>
+              <p>
+              Designed and maintained by <a href="https://plus.google.com/u/0/108629828407127153120/about/p/pub">JOY</a>
+              </p>
+  </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/customscript.js"></script>
+  </body>
+
+</html>
