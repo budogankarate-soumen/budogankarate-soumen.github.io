@@ -1,7 +1,7 @@
 head,body,h1,h2,h3,h4,h5,h6,p{
     
-    font-family: 'Josefin slab', serif;
-    font-weight: bold;
+    font-family: 'Josefin bold', serif;
+    font-size: 1.5em;
 }
 
 .navbar-custom{
